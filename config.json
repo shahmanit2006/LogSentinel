@@ -1,0 +1,12 @@
+{
+  "ollama_base_url": "http://localhost:11434",
+  "ollama_model": "llama3.2",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "qdrant_path": "./storage/qdrant",
+  "sqlite_path": "./storage/incidents.db",
+  "collection_name": "system_logs",
+  "top_k": 8,
+  "anomaly_contamination": 0.08,
+  "time_bin_minutes": 5,
+  "simulation_time_bin": 25000
+}

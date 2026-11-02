@@ -1,0 +1,14 @@
+streamlit==1.45.1
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+plotly==6.1.2
+qdrant-client==1.14.3
+sentence-transformers==4.1.0
+requests==2.32.3
+python-dotenv==1.1.0
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.5
+reportlab==4.4.1
+pytest==8.3.5

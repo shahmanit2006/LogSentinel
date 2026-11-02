@@ -1,0 +1,15 @@
+2026-10-31 10:00:00 INFO [application] Application service started
+2026-10-31 10:00:01 INFO [application] Health check passed
+2026-10-31 10:00:03 WARNING [application] Response latency above normal threshold
+2026-10-31 10:00:05 ERROR [database] Database connection timeout
+2026-10-31 10:00:06 ERROR [payment] Payment transaction failed: database unavailable
+2026-10-31 10:00:07 WARNING [payment] Transaction retry initiated
+2026-10-31 10:00:09 ERROR [payment] Transaction retry failed
+2026-10-31 10:00:10 ERROR [application] Request failed with HTTP 500
+2026-10-31 10:05:00 INFO [database] Database connection restored
+2026-10-31 10:05:02 INFO [payment] Payment service recovered
+2026-10-31 10:10:00 INFO [application] Scheduled health check passed
+2026-10-31 10:10:01 INFO [database] Connection pool healthy
+2026-10-31 10:15:00 INFO [application] Application running normally
+2026-10-31 10:20:00 INFO [payment] Payment transaction completed
+2026-10-31 10:20:01 INFO [application] Request completed successfully
